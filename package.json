@@ -1,19 +1,17 @@
 {
   "name": "vite-react-plus",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Hooks and Components for making Valtio easier to work with React",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc -p src/."
+    "build": "tsc --project ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "dependencies": {
+    "react-dom": "^18.2.0",
     "valtio": "^1.10.3"
   },
   "devDependencies": {
