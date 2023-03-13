@@ -1,6 +1,6 @@
 {
   "name": "vite-react-plus",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Hooks and Components for making Valtio easier to work with React",
   "main": "dist/index.js",
   "scripts": {
