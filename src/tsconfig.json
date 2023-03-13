@@ -19,7 +19,7 @@
     "preserveWatchOutput": true,
     "skipLibCheck": true,
     "strict": true,
-    "outDir": "./dist",
+    "outDir": "../dist",
     "baseUrl": "./"
   },
   "exclude": ["node_modules"]
