@@ -1,9 +1,11 @@
 {
   "name": "vite-react-plus",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Hooks and Components for making Valtio easier to work with React",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "prepublish": "tsc",
     "build": "tsc --project ."
   },
   "keywords": [],
