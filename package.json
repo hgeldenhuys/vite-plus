@@ -1,10 +1,10 @@
 {
   "name": "vite-plus",
   "version": "0.1.0",
-  "description": "A few utilities for Valtio to make it work better with React",
-  "main": "index.js",
+  "description": "Hooks and Components for making Valtio easier to work with React",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p src/."
   },
   "keywords": [],
   "author": "",
