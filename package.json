@@ -1,12 +1,13 @@
 {
   "name": "vite-react-plus",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Hooks and Components for making Valtio easier to work with React",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "prepublish": "tsc",
-    "build": "tsc --project ."
+    "build": "tsc --project .",
+    "git:commit": "npm --no-git-tag-version version patch && git add . && git commit -m \"$(date)\" && git push"
   },
   "keywords": [],
   "author": "",
