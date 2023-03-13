@@ -1,6 +1,6 @@
 {
   "name": "vite-react-plus",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "Hooks and Components for making Valtio easier to work with React",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -28,7 +28,7 @@
   ],
   "scripts": {
     "prepublish": "tsc",
-    "build": "tsc --project tsconfig.json --module CommonJS --outDir ./build",
+    "build": "tsc --project tsconfig.json --module CommonJS --outDir ./dist",
     "git:commit": "npm --no-git-tag-version version patch && git add . && git commit -m \"$(date)\" && git push"
   },
   "author": "Herman Geldenhuys",
