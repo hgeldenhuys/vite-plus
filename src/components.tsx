@@ -22,7 +22,7 @@ export function Loop<T>({
   return (
     <>
       {items.map((item, i) => (
-        <Wrap Component={Component} item={item} index={i} />
+        <Wrap Component={Component} item={item} index={i} key={i} />
       ))}
     </>
   );
