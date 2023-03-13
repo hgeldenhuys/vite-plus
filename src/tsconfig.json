@@ -4,8 +4,8 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "lib": ["ES2015"],
-    "module": "ESNext",
-    "target": "es6",
+    "module": "CommonJS",
+    "target": "ESNext",
     "composite": false,
     "declaration": true,
     "declarationMap": true,
